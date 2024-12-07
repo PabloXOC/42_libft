@@ -3,6 +3,10 @@ libft project in 42
 
 A custom implementation of the standard C library functions, written entirely from scratch. This library serves as a foundational project for mastering C programming and understanding low-level programming concepts. It includes common utility functions for string manipulation, memory management, list handling, and more.
 
+A custom implementation of the standard C library functions, written entirely from scratch. This library serves as a foundational project for mastering C programming and understanding low-level programming concepts. Through this project, I gained insights into memory management, pointer arithmetic, and the inner workings of fundamental C functions. I developed a stronger understanding of data structures, algorithm efficiency, and low-level system programming.
+
+In addition to the core library, this project also includes a set of linked list utilities, allowing me to explore dynamic data structures and memory allocation strategies. This library is not only a comprehensive toolkit for common tasks but has also served as the foundation for the majority of my subsequent projects. By leveraging this library, I was able to ensure consistency, efficiency in my codebase, reinforcing the value of creating reusable and well-documented utilities.
+
 ---
 
 ## Features
@@ -25,7 +29,7 @@ A custom implementation of the standard C library functions, written entirely fr
 ## Files Overview
 
 ### Core Library Files
-These files implement various standard C library functions:
+Each file implements a standard C library functions:
 
 - `ft_atoi.c`: Convert a string to an integer.
 - `ft_bzero.c`: Set a block of memory to zero.
@@ -64,9 +68,17 @@ These files implement various standard C library functions:
 
 
 ### Linked List (Bonus)
+This section includes various helper functions for managing linked lists:
+
+- `ft_lstadd_back_bonus.c`: Add a new element to the end of a linked list.
 - `ft_lstadd_front_bonus.c`: Add a new element to the start of a linked list.
+- `ft_lstclear_bonus.c`: Delete and free all elements of a linked list.
+- `ft_lstdelone_bonus.c`: Delete and free a single element of a linked list.
+- `ft_lstiter_bonus.c`: Apply a function to each element of a linked list.
+- `ft_lstlast_bonus.c`: Return the last element of a linked list.
+- `ft_lstmap_bonus.c`: Apply a function to each element of a linked list and create a new list.
+- `ft_lstnew_bonus.c`: Create a new linked list element.
 - `ft_lstsize_bonus.c`: Count the number of elements in a linked list.
-- `ft_lstclear_bonus.c`: Free an entire linked list.
 
 ### Header File
 - `libft.h`: Contains function prototypes and necessary includes.
@@ -78,7 +90,7 @@ These files implement various standard C library functions:
 To clone the repository, use the following commands:
 
 ```bash
-git clone https://github.com/PabloXOC/42_minishell.git libft
+git clone https://github.com/PabloXOC/42_libft.git libft
 cd libft
 ```
 
@@ -87,6 +99,12 @@ Run the following command to compile the library:
 
 ```bash
 make
+```
+
+If you want to compile the bonus functions (list functions):
+
+```bash
+make bonus
 ```
 
 ### Cleaning Up
