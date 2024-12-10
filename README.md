@@ -1,8 +1,6 @@
 # 42_libft
 libft project in 42
 
-A custom implementation of the standard C library functions, written entirely from scratch. This library serves as a foundational project for mastering C programming and understanding low-level programming concepts. It includes common utility functions for string manipulation, memory management, list handling, and more.
-
 A custom implementation of the standard C library functions, written entirely from scratch. This library serves as a foundational project for mastering C programming and understanding low-level programming concepts. Through this project, I gained insights into memory management, pointer arithmetic, and the inner workings of fundamental C functions. I developed a stronger understanding of data structures, algorithm efficiency, and low-level system programming.
 
 In addition to the core library, this project also includes a set of linked list utilities, allowing me to explore dynamic data structures and memory allocation strategies. This library is not only a comprehensive toolkit for common tasks but has also served as the foundation for the majority of my subsequent projects. By leveraging this library, I was able to ensure consistency, efficiency in my codebase, reinforcing the value of creating reusable and well-documented utilities.
