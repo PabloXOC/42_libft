@@ -64,7 +64,6 @@ Each file implements a standard C library functions:
 - `ft_tolower.c`: Convert a character to lowercase.
 - `ft_toupper.c`: Convert a character to uppercase.
 
-
 ### Linked List (Bonus)
 This section includes various helper functions for managing linked lists:
 
@@ -111,3 +110,18 @@ Use the following commands for cleanup:
 - `make clean`: Remove object files.
 - `make fclean`: Remove object files and the compiled library.
 - `make re`: Rebuild the library from scratch.
+
+- Here’s a condensed **Learnings** section for your libft project:
+
+---
+
+## Learnings
+
+This project provided valuable insights into:
+
+- **C Standard Library**: Gained a deep understanding of common library functions by re-implementing them from scratch.  
+- **Memory Management**: Improved skills in dynamic allocation, freeing, and handling memory efficiently.  
+- **Data Structures**: Explored linked lists, their operations, and memory strategies in the bonus section.  
+- **Reusability**: Built a foundational library to ensure consistency and efficiency across future projects.
+
+By completing **libft**, I developed a solid grasp of low-level programming, preparing me for more complex system-level challenges.
